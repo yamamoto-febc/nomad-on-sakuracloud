@@ -29,7 +29,7 @@ Nomadでジョブを実行すると以下のような処理が行われます。
   - nomadエージェントで自動割り当てされたポートをConsulに登録
   - ConsulTemplateでNginxのコンフィグファイルを生成、再読み込み(エンドポイント)
 
-例えば、対象ドメインを`nomad.example.com`、ジョブ名を`apache`とした場合、
+例えば、対象ドメインを`nomad.example.com`、サービス名を`apache`とした場合、
 Nginxにて`http://apache.nomad.example.com/`というURLでアクセスすると
 nomadエージェントで実行されているジョブへリバースプロキシされます。
 また、nomadエージェントのグローバルIP/ポートを直接指定することでもアクセス可能です。
