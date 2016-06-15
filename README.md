@@ -213,7 +213,7 @@ variable servers_private_ip_list{
 ### `name`
 
 サービス名です。この値でエンドポイントを割り当てます。
-例：サービス名が`service01`、対象ドメイン名が`nomad.fe-bc.net`の場合、エンドポイントは`http://servic01.nomad.fe-bc.net`となる。
+例：サービス名が`service01`、対象ドメイン名が`nomad.example.com`の場合、エンドポイントは`http://service01.nomad.example.com`となる。
 
 同名のサービスがすでに定義されている場合、フロントエンドNginxにてラウンドロビンされます。
 
