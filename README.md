@@ -1,5 +1,7 @@
 # nomad-on-sakuracloud
 
+参考記事：[Qiita:Nomad/Consul/Nginxでスケールアウト出来るコンテナホスティング環境 on さくらのクラウド](http://qiita.com/items/fa4b3dca54dfebb36973)
+
 # 概要
 
 さくらのクラウド上に以下の環境を構築します。
